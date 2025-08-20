@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening"],
+      "responses": ["Hello! 👋 How can I help you today?", "Hey there! 😊 What’s up?", "Hi! Ready to chat?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "take care"],
+      "responses": ["Goodbye! 👋", "See you later!", "Take care and stay safe!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "appreciate it"],
+      "responses": ["You're welcome! 🙌", "Glad I could help!", "Anytime! 👍"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what's the time", "tell me the time", "current time"],
+      "responses": ["I can tell you the time ⏰ – try asking 'time' directly."]
+    },
+    {
+  "tag": "date",
+  "patterns": [
+    "what is today's date",
+    "tell me the date",
+    "date please",
+    "what day is it",
+    "can you tell me today's date"
+  ],
+  "responses": [
+    "Let me check today's date 📅"
+  ]
+},
+
+    {
+      "tag": "weather",
+      "patterns": ["weather", "what's the weather", "temperature outside"],
+      "responses": ["I'm not a weather app 🌦️, but I suggest checking Google Weather or a weather app!"]
+    },
+    {
+      "tag": "study",
+      "patterns": ["help me study", "how to focus", "study tips", "exam preparation"],
+      "responses": [
+        "Best tip: break study time into 25-minute focused sessions with 5-min breaks! 📚",
+        "Stay hydrated 💧 and avoid multitasking.",
+        "Revise with active recall instead of passive reading."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["motivate me", "say something positive", "i feel low"],
+      "responses": [
+        "You’re stronger than you think 💪 Keep going!",
+        "Don’t stop until you’re proud 🌟",
+        "Small progress is still progress 🚀"
+      ]
+    },
+    {
+      "tag": "fun",
+      "patterns": ["tell me a fun fact", "fun fact", "something interesting"],
+      "responses": [
+        "Did you know? Honey never spoils 🍯 Archaeologists found 3000-year-old honey still edible!",
+        "Octopuses have three hearts 🐙",
+        "Bananas are berries, but strawberries aren’t! 🍌🍓"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["tell me a joke", "make me laugh", "funny joke"],
+      "responses": [
+        "Why do Java developers wear glasses? Because they don’t C#! 🤓",
+        "Why was the computer cold? It forgot to close its Windows. 🖥️",
+        "Debugging: Removing the needles from the haystack 😂"
+      ]
+    }
+  ]
+}
